@@ -75,11 +75,11 @@ header {
 .introduction-lines {
   position: absolute;
   top: 52.69px;
-  left: 1015.6px;
+  left: 70.5%;
 }
 .introduction-strokes {
   position: absolute;
-  left: 850.6px;
+  left: 59%;
   top: 123px;
 }
 .main-title {
@@ -95,6 +95,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .introduction-text {
   max-width: 731px;
