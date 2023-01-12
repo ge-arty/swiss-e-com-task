@@ -292,3 +292,107 @@ header {
   color: #ffffff;
 }
 /* --------------------------------- */
+.offer-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 29px 120px 54px 120px;
+  background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
+}
+.offer-header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.offer-title {
+  color: #11346f;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 48.8px;
+}
+.offer-subtitle {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.offer-cards-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.offer-card {
+  width: 100%;
+  max-width: 368px;
+  background: rgba(246, 248, 252, 0.7);
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+  padding: 150px 10px 24px 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.offer-card-pic1 {
+  position: absolute;
+  width: 133px;
+  height: 100px;
+  top: -20px;
+}
+
+.offer-card-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #11346f;
+}
+.offer-card-price {
+  margin-top: 17px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  color: #11346f;
+}
+.offer-card-shipping {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #11346f;
+}
+.offer-card-text1 {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-card-text2-box {
+  margin-top: 37px;
+}
+.offer-card-text2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #11346f;
+}
+.offer-card-btn {
+  width: 331px;
+  height: 53px;
+  margin-top: 47px;
+  background: #197aff;
+  box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+  border-radius: 60px;
+  border: none;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+.payments-box {
+  margin-top: 20px;
+}
